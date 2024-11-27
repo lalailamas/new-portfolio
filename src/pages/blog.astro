@@ -1,0 +1,31 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const subtitle =
+    "This blog page is under construction. Check back soon for updates!";
+---
+
+<BaseLayout title="We're Working on It!" sideBarActiveItemID="blog">
+    <div class="container mx-auto px-4 py-8"></div>
+    <!-- Title -->
+    <h1 class="text-4xl font-bold text-gray-800 mb-4 text-center">
+        We're Working on It!
+    </h1>
+
+    <!-- Subtitle -->
+    <p class="text-lg text-gray-600 mb-6">{subtitle}</p>
+
+    <!-- Script for Lottie -->
+    <div class="flex justify-center">
+        <script
+            src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+            type="module"></script>
+        <dotlottie-player
+            src="https://lottie.host/80b90775-c513-445a-84e1-1d31724e7831/lJ0RdafVpN.lottie"
+            background="transparent"
+            speed="1"
+            style="width: 300px; height: 300px"
+            loop
+            autoplay></dotlottie-player>
+    </div>
+</BaseLayout>

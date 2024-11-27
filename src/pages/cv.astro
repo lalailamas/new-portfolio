@@ -1,0 +1,162 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    My journey is defined by proposing innovative ideas, challenging the status quo, and delivering results that seamlessly blend functionality and design. Additionally, I am the founder of Hola Gin, a culinary venture specializing in artisan gin-based sours with a unique touch of edible glitter. 🍸✨ At Hola Gin, I also offer exquisite snack boards tailored for events, with options for personalized assembly or ready-to-enjoy setups.
+
+    Whether you're looking for a creative mind to boost your web project or add a unique and delightful touch to your event, I am excited to collaborate with you! 💻🍹
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+
+    <TimeLineElement
+      title="Frontend Developer"
+      subtitle="2023 at Laboratoria, Santiago, Chile"
+      isLast={true}
+    />
+    <TimeLineElement
+    title="International Gastronomic Administrator"
+    subtitle="2010 to 2014 at INACAP University, Santiago, Chile"
+  />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+    title="Frontend Developer"
+    subtitle="From August 2023 to November 2024 at Cencosud Ventures, Santiago, Chile"
+  >
+    <ul class="list-disc pl-5 space-y-2 text-justify mb-8">
+      <li>
+        <strong>Design and development:</strong> of the frontend for Despnsa247, enhancing navigation and user experience.
+      </li>
+      <li>
+        <strong>Implementation:</strong> of Google Analytics 4 to track activity across various stores.
+      </li>
+      <li>
+        <strong>Collaboration:</strong> with multidisciplinary teams using agile methodologies, contributing skills in designing intuitive and visually appealing interfaces, optimizing navigation and product functionality.
+      </li>
+      <li>
+        <strong>Development:</strong> of inventory management functionality, including product creation, editing, and deletion, improving internal processes.
+      </li>
+      <li>
+        <strong>Implementation:</strong> of callback validation using NextAuth and the OAuth2 protocol, ensuring secure and efficient user authentication.
+      </li>
+      <li>
+        <strong>Optimization:</strong> of the machine restocking process, reducing the time from 3 hours to just 40 minutes per machine by enhancing the user interface, enabling more efficient tracking and inventory replenishment.
+      </li>
+    </ul>
+  </TimeLineElement>
+  
+  <TimeLineElement
+  title="Frontend Developer"
+  subtitle="From March 2023 to August 2023 at Laboratoria, Remote"
+>
+  <ul class="list-disc pl-5 space-y-2 text-justify">
+    <li>
+      <strong>Development of five frontend projects:</strong> Successfully delivered five projects within a six-month intensive program, collaborating with diverse teams across LATAM. Each project involved different challenges, requiring adaptability and teamwork to meet tight deadlines.
+    </li>
+    <li>
+      <strong>Implementation of unit testing:</strong> Ensured code reliability and quality by writing comprehensive unit tests using <span class="font-semibold">Jest</span>, improving application stability and preventing regressions.
+    </li>
+    <li>
+      <strong>Prototyping with Figma:</strong> Designed low- and high-fidelity prototypes with a <span class="font-semibold">mobile-first approach</span>, focusing on user-centered design principles to create intuitive and engaging interfaces.
+    </li>
+    <li>
+      <strong>Active participation in agile sprints:</strong> Worked within an agile development environment, participating in sprint planning, retrospectives, and feature refinement sessions using <span class="font-semibold">Kanban methodologies</span> to ensure continuous delivery and iterative improvement.
+    </li>
+  </ul>
+</TimeLineElement>
+
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a 
+        href="https://www.credential.net/812bf05c-de3a-4947-b0c1-21aa58ad8f33" 
+        target="_blank" 
+        class="text-blue-600 hover:text-blue-800 underline"
+      >
+        Frontend Development Bootcamp Graduate - Laboratoria
+      </a>
+    </li>
+    
+    
+    <li>
+      <a href="/certificates/diploma-backend.pdf" target="_blank" class="text-blue-600 hover:text-blue-800 underline">
+        Introduction to Backend Development - Platzi
+      </a>
+    </li>
+    <li>
+      <a 
+        href="/certificates/sence-certificado.pdf" 
+        target="_blank" 
+        class="text-blue-600 hover:text-blue-800 underline"
+      >
+        Programming with JavaScript - SENCE (Online Course)
+      </a>
+    </li>
+    <li>
+      <a 
+        href="/certificates/curso-git.pdf" 
+        target="_blank" 
+        class="text-blue-600 hover:text-blue-800 underline"
+      >
+       Professional Git Course - CódigoFacilito
+      </a>
+    </li>
+    
+    
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Spanish (native)</li>
+    <li>English (B1)</li>
+    <li>Javascript</li>
+    <li>React</li>
+    <li>NextJS</li>
+    <li>Astro</li>
+    <li>Tailwind</li>
+    <li>Scrum</li>
+    <li>Kanban</li>
+    <li>Git</li>
+    <li>HTML</li>
+    <li>Excel</li>
+    <li>Power BI</li>
+    <li>Figma</li>
+    <li>Miró</li>
+    <li>Bitbucket</li>
+    <li>Github</li>
+    <li>Canva</li>
+    <li>Shortcut</li>
+    <li>Trello</li>
+    <li>Supabase</li>
+    <li>Netlify</li>
+    <li>Mailgun</li>
+    <li>DaisyUI</li>
+    <li>Vercel</li>
+
+  </ul>
+</BaseLayout>
