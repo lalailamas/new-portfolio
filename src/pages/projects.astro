@@ -1,0 +1,31 @@
+---
+import HorizontalCard from "../components/HorizontalCard.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+---
+
+<BaseLayout sideBarActiveItemID="projects">
+    <div class="mb-5">
+        <div class="text-3xl w-full font-bold">My projects {"</>"}</div>
+      </div>
+
+      <HorizontalCard
+      title="Cinephiles"
+      img="/cinephiles.png"
+      desc="Web application consuming an API to get movies, reviews, and rankings. Allows filtering, sorting and searching"
+      url="https://github.com/lalailamas/Cinephiles"
+      badge="EDUCATIONAL"
+      tools="React, Javascript, TailwindCSS, Firebase Hosting, Vite"
+      
+    />
+
+    <HorizontalCard
+      title="NextJS-ReactJS"
+      img="/cover.png"
+      desc="Small test application to get to know how NEXTJS works. It uses information from an external API"
+      url="https://github.com/lalailamas/NextJS-ReactJS"
+      badge="EDUCATIONAL"
+      tools="React, Next, Vercel"
+      
+    />
+</BaseLayout>
