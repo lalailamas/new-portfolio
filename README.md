@@ -1,54 +1,67 @@
-# Astro Starter Kit: Basics
 
-```sh
-npm create astro@latest -- --template basics
-```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+# **🚀 Lalailamas's Portfolio**
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+This is my personal portfolio website, showcasing my skills, projects, and experiences as a Frontend Developer. Built with Astro and styled using TailwindCSS, it focuses on performance, responsiveness, and a seamless user experience.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
 
-## 🚀 Project Structure
+## **🌟 Features**
 
-Inside of your Astro project, you'll see the following folders and files:
+ - **Fast and Optimized:** Powered by Astro, ensuring high performance and fast load times.
+ - **Responsive Design:** Built with TailwindCSS for a sleek and responsive layout across all devices.
+ - **Showcases Projects:** Highlights my best projects, including links to repositories and live demos.
+ - **About Me:** A brief overview of my skills, experience, and goals.
+ - **Contact Section:** Direct email link for easy communication and networking opportunities.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## **⚙️ Tech Stack**
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+ - **Astro:** Framework for building fast, modern websites.
+ - **TailwindCSS:** Utility-first CSS framework for rapid UI development.
+ - **Vercel:** For deployment and hosting.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## **📂 Project Structure**
 
-Any static assets, like images, can be placed in the `public/` directory.
+Here's a quick look at the project's structure:
 
-## 🧞 Commands
+    src/
+    │── components/    # Reusable components (e.g., BaseHead, Card, Footer, Header, HorizontalCard, SideBar)
+    │── layouts/       # Page layouts for BaseLayout, Layout, etc.
+    │── pages/         # Main website pages
+    │── styles/        # Custom TailwindCSS styles
+    public/            # Static files like images and icons
+    │── certificates/  # Technical certifications (e.g., PDFs, images of diplomas)        
+    astro.config.mjs   # Astro configuration file
+    tailwind.config.js # TailwindCSS configuration
 
-All commands are run from the root of the project, from a terminal:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 🚀 How to Run Locally
 
-## 👀 Want to learn more?
+ 1. Clone this repository:
+    
+        git clone https://github.com/lalailamas/new-portfolio.git
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+2. Navigate to the project directory:
+
+       cd your-portfolio
+
+3. Install dependencies 
+
+		npm install
+
+4. Run the development server:
+
+	    npm run dev
+
+
+
+## 🌐 Live Demo
+
+Check out the live version of my portfolio here: [My Portfolio](https://new-portfolio-git-projects-lalailamas-projects.vercel.app/)
+
+
+## 📧 Contact
+
+If you’d like to connect or collaborate, feel free to reach out:
+Email: ale.cordoba.p@gmail.com
+
+
